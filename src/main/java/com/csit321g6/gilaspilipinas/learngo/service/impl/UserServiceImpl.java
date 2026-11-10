@@ -1,12 +1,12 @@
 package com.csit321g6.gilaspilipinas.learngo.service.impl;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.UserRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.UserResponse;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.User;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.UserRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.service.UserService;
+import com.csit321g6.gilaspilipinas.learngo.dto.UserRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.UserResponse;
+import com.csit321g6.gilaspilipinas.learngo.entity.User;
+import com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
+import com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
+import com.csit321g6.gilaspilipinas.learngo.repository.UserRepository;
+import com.csit321g6.gilaspilipinas.learngo.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

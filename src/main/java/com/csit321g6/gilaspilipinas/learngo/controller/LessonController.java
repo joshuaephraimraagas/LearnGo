@@ -1,8 +1,8 @@
 package com.csit321g6.gilaspilipinas.learngo.controller;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.LessonRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.LessonResponse;
-import java.com.csit321g6.gilaspilipinas.learngo.service.LessonService;
+import com.csit321g6.gilaspilipinas.learngo.dto.LessonRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.LessonResponse;
+import com.csit321g6.gilaspilipinas.learngo.service.LessonService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

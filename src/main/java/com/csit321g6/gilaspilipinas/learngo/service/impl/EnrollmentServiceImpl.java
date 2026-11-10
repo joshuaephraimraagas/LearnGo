@@ -1,16 +1,16 @@
 package com.csit321g6.gilaspilipinas.learngo.service.impl;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.EnrollmentRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.EnrollmentResponse;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.Course;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.Enrollment;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.User;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.EnrollmentRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.UserRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.service.EnrollmentService;
+import com.csit321g6.gilaspilipinas.learngo.dto.EnrollmentRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.EnrollmentResponse;
+import com.csit321g6.gilaspilipinas.learngo.entity.Course;
+import com.csit321g6.gilaspilipinas.learngo.entity.Enrollment;
+import com.csit321g6.gilaspilipinas.learngo.entity.User;
+import com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
+import com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
+import com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
+import com.csit321g6.gilaspilipinas.learngo.repository.EnrollmentRepository;
+import com.csit321g6.gilaspilipinas.learngo.repository.UserRepository;
+import com.csit321g6.gilaspilipinas.learngo.service.EnrollmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

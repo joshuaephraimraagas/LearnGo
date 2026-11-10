@@ -1,12 +1,12 @@
 package com.csit321g6.gilaspilipinas.learngo.service.impl;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.CourseRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.CourseResponse;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.Course;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.service.CourseService;
+import com.csit321g6.gilaspilipinas.learngo.dto.CourseRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.CourseResponse;
+import com.csit321g6.gilaspilipinas.learngo.entity.Course;
+import com.csit321g6.gilaspilipinas.learngo.exception.DuplicateResourceException;
+import com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
+import com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
+import com.csit321g6.gilaspilipinas.learngo.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

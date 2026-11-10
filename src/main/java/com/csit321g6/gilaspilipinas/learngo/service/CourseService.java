@@ -1,7 +1,7 @@
 package com.csit321g6.gilaspilipinas.learngo.service;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.CourseRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.CourseResponse;
+import com.csit321g6.gilaspilipinas.learngo.dto.CourseRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.CourseResponse;
 
 import java.util.List;
 

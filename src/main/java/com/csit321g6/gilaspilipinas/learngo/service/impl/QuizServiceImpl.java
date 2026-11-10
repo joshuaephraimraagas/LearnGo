@@ -1,13 +1,13 @@
 package com.csit321g6.gilaspilipinas.learngo.service.impl;
 
-import java.com.csit321g6.gilaspilipinas.learngo.dto.QuizRequest;
-import java.com.csit321g6.gilaspilipinas.learngo.dto.QuizResponse;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.Course;
-import java.com.csit321g6.gilaspilipinas.learngo.entity.Quiz;
-import java.com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.repository.QuizRepository;
-import java.com.csit321g6.gilaspilipinas.learngo.service.QuizService;
+import com.csit321g6.gilaspilipinas.learngo.dto.QuizRequest;
+import com.csit321g6.gilaspilipinas.learngo.dto.QuizResponse;
+import com.csit321g6.gilaspilipinas.learngo.entity.Course;
+import com.csit321g6.gilaspilipinas.learngo.entity.Quiz;
+import com.csit321g6.gilaspilipinas.learngo.exception.ResourceNotFoundException;
+import com.csit321g6.gilaspilipinas.learngo.repository.CourseRepository;
+import com.csit321g6.gilaspilipinas.learngo.repository.QuizRepository;
+import com.csit321g6.gilaspilipinas.learngo.service.QuizService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
