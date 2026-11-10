@@ -12,10 +12,10 @@
     </parent>
 
     <!-- Required by the professor -->
-    <groupId>com.csit321g6.learngo</groupId>
+    <groupId>com.csit321g6.gilaspilipinas</groupId>
     <artifactId>learngo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>projectname</name>
+    <name>learngo</name>
     <description>LearnGo backend - Software Increment 1</description>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.csit321g6.gilaspilipinas.learngo.controller;
+package java.com.csit321g6.gilaspilipinas.learngo.controller;
 
 import com.csit321g6.gilaspilipinas.learngo.dto.UserRequest;
 import com.csit321g6.gilaspilipinas.learngo.dto.UserResponse;
